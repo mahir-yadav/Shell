@@ -1,0 +1,27 @@
+TEST CASE-1
+
+echo hello
+echo -n
+date 
+date -u
+date -R
+cat rm.c
+mkdir hi
+cd hi
+ls
+pwd
+cd ..
+
+TEST CASE-2
+
+mkdir try1
+mkdir try2
+cd try1
+mkdir try12
+pwd
+ls
+rm -d try12
+ls
+rm -d try1 try2
+cat -n mkdir.c
+cat -E mkdir.c
